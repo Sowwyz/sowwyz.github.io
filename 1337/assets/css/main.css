@@ -1,0 +1,214 @@
+/* Sowwyz#1337 */
+@font-face {
+    font-family: derk;
+    src: url(derk.otf);
+}
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+html {
+    font-family: mono;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: monospace;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+body {
+    background: rgb(17, 17, 17);
+}
+
+.back {
+    width: 100%;
+}
+
+#overlay-toggle {
+    position: absolute;
+    display: none;
+}
+
+.overlay {
+    z-index: 1;
+    background-color: black;
+}
+
+.overlay label {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vw;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}
+
+.no-hover {
+    display: block;
+}
+
+.hover {
+    display: none;
+}
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+
+.fullscreen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.text-content h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+
+.bg-video {
+    z-index: -1;
+}
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+body {
+    font-family: monospace !important;
+    background-color: #000 !important;
+    color: white !important
+}
+
+a {
+    text-decoration: none;
+    color: white !important
+}
+    /* Sowwyz#1337 */
+    /* Sowwyz#1337 */
+    /* Sowwyz#1337 */
+    /* Sowwyz#1337 */
+
+a:hover {
+    transition: .4s !important;
+    color: grey !important
+}
+
+span::before {
+    content: '\A';
+    white-space: pre
+}
+
+#center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%)
+}
+
+#overlay-toggle:checked~.overlay {
+    animation-fill-mode: forwards;
+    animation-name: fade, hide;
+    animation-delay: 0s, 600ms;
+    animation-duration: 600ms, 1ms;
+}
+
+#overlay-toggle:checked~.overlay label {
+    animation-fill-mode: forwards;
+    animation-name: fade;
+    animation-delay: 0s;
+    animation-duration: 500ms;
+}
+
+@media(hover: hover) {
+    .hover {
+        display: block;
+    }
+    .no-hover {
+        display: none;
+    }
+}
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+@keyframes fade {
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes hide {
+    to {
+        visibility: hidden;
+    }
+}
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
+/* Sowwyz#1337 */
